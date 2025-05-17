@@ -1,0 +1,75 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F8FAFC;
+  color: #1E293B;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #0F172A;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #2563EB;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+header .btn:hover {
+  background-color: #1D4ED8;
+}
+
+/* Main Sections */
+main section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+main h2 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+main ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #0F172A;
+  color: #CBD5E1;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
