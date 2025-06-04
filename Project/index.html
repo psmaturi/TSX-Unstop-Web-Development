@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pardha Saradhi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    Portfolio
+                </div>
+                <div class="nav-links desktop-nav">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                    <a href="#extra" class="nav-link" data-section="extra">Activities</a>
+                    <a href="#personal" class="nav-link" data-section="personal">More</a>
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-content">
+                <a href="#home" class="mobile-nav-link" data-section="home">Home</a>
+                <a href="#about" class="mobile-nav-link" data-section="about">About</a>
+                <a href="#skills" class="mobile-nav-link" data-section="skills">Skills</a>
+                <a href="#projects" class="mobile-nav-link" data-section="projects">Projects</a>
+                <a href="#extra" class="mobile-nav-link" data-section="extra">Activities</a>
+                <a href="#personal" class="mobile-nav-link" data-section="personal">More</a>
+                <a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+                <div class="blob blob-3"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="profile-image animate-on-load">
+                        <div class="profile-border">
+                            <div class="profile-placeholder">PS</div>
+                        </div>
+                    </div>
+                    <h1 class="hero-title animate-on-load">
+                        <span class="gradient-text">Maturi Pardha Saradhi</span>
+                    </h1>
+                    <p class="hero-subtitle animate-on-load">
+                        Aspiring Computer Science & Engineering Student
+                    </p>
+                    <p class="hero-description animate-on-load">
+                        Ambitious and go-getting individual with a passion for science and technology, pursuing B.Tech in Computer Science and Engineering. Determined, flexible, and ready to take on responsibilities in the tech world.
+                    </p>
+                    <div class="hero-buttons animate-on-load">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                    <div class="hero-social animate-on-load">
+                        <a href="https://github.com/psmaturi" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/psmaturi" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:psmaturi@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919676793730" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">A quick introduction</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 class="about-heading">Hi, I'm Pardha Saradhi</h3>
+                        <div class="about-paragraphs">
+                            <p>
+                                I am an ambitious and enthusiastic Computer Science and Engineering student at SRM University AP, with a minor in Marketing. My passion for science and technology drives me to constantly learn and take on new challenges.
+                            </p>
+                            <p>
+                                I am a quick learner, hard worker, and a good team player with excellent communication and multi-tasking skills. I thrive in dynamic environments and am always eager to contribute, whether as a leader or a collaborator.
+                            </p>
+                            <p>
+                                My technical interests span programming, full-stack web development, and problem-solving using data structures and algorithms. I also enjoy participating in extracurricular activities and exploring new domains.
+                            </p>
+                        </div>
+                        <div class="interests">
+                            <h4 class="interests-title">Personal Traits</h4>
+                            <div class="interests-tags">
+                                <span class="tag">Quick Learner</span>
+                                <span class="tag">Hard Worker</span>
+                                <span class="tag">Amicable</span>
+                                <span class="tag">Flexible</span>
+                                <span class="tag">Good Team Player</span>
+                                <span class="tag">Communication</span>
+                                <span class="tag">Multi-tasking</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <h3 class="stat-value">SRM University AP</h3>
+                            <p class="stat-label">B.Tech CSE (In Progress)</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3 class="stat-value">2023</h3>
+                            <p class="stat-label">Intermediate, Sri New Vision Jr. College</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <h3 class="stat-value">2021</h3>
+                            <p class="stat-label">SSC, Sri Chaitanya School</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cta">
+                    <div class="cta-card">
+                        <h3 class="cta-title">Career Objective</h3>
+                        <p class="cta-text">
+                            An ambitious and go-getting individual with a passion for science and technology, which led me to pursue Computer Science and Engineering. My determination pushes me toward my career objectives, and I am flexible and ready to take on responsibilities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">Technologies and tools I work with</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon frontend">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="category-title">Programming Languages</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item"><span class="skill-name">C Language</span></div>
+                            <div class="skill-item"><span class="skill-name">C++</span></div>
+                            <div class="skill-item"><span class="skill-name">Java</span></div>
+                            <div class="skill-item"><span class="skill-name">Python</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon backend">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3 class="category-title">Web & Full Stack</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item"><span class="skill-name">HTML</span></div>
+                            <div class="skill-item"><span class="skill-name">CSS</span></div>
+                            <div class="skill-item"><span class="skill-name">JavaScript</span></div>
+                            <div class="skill-item"><span class="skill-name">MERN Stack (MongoDB, Express.js, React.js, Node.js)</span></div>
+                            <div class="skill-item"><span class="skill-name">PHP</span></div>
+                            <div class="skill-item"><span class="skill-name">MySQL</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h3 class="category-title">Other Skills</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item"><span class="skill-name">Data Structures (DSA)</span></div>
+                            <div class="skill-item"><span class="skill-name">Object Oriented Programming (OOPs)</span></div>
+                            <div class="skill-item"><span class="skill-name">File Handling</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">A selection of my academic and personal work</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Railway Management System -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <img src="https://img.freepik.com/free-photo/black-man-waiting-train-platform_53876-14031.jpg?ga=GA1.1.1637173505.1703150799&semt=ais_items_boosted&w=740" alt="Railway Management System">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Railway Management System</h3>
+                                <p class="project-description">
+                                    Developed a console-based application in C to manage railway reservations, including booking, cancellation, and passenger details.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">C Language</span>
+                                    <span class="tag">File Handling</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Library Management System -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <img src="https://img.freepik.com/free-photo/crop-hands-using-tablet-library_23-2147845934.jpg?ga=GA1.1.1637173505.1703150799&semt=ais_items_boosted&w=740" alt="Library Management System">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Library Management System</h3>
+                                <p class="project-description">
+                                    Designed and implemented a system in C to handle book issuance, returns, and member management for libraries using file handling.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">C Language</span>
+                                    <span class="tag">File Handling</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Restaurant Management System -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <img src="https://img.freepik.com/free-photo/close-up-baker-bakery-shop_23-2149233716.jpg?ga=GA1.1.1637173505.1703150799&semt=ais_items_boosted&w=740" alt="Restaurant Management System">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Restaurant Management System</h3>
+                                <p class="project-description">
+                                    Built a menu-driven system in C with Data Structures to manage orders, billing, and table reservations using linked lists, stacks, and queues.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">C Language</span>
+                                    <span class="tag">Data Structures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Online Learning Platform with Grading and Certification -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <img src="https://img.freepik.com/free-vector/e-learning-interactions-illustration-concept_114360-23713.jpg?ga=GA1.1.1637173505.1703150799&semt=ais_items_boosted&w=740" alt="Online Learning Platform">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Online Learning Platform with Grading and Certification</h3>
+                                <p class="project-description">
+                                    Created an object-oriented platform in C++ allowing users to enroll in courses, take quizzes, and receive performance-based certifications.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">C++</span>
+                                    <span class="tag">OOPs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FinTracker (Finance Tracking System) -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <img src="https://img.freepik.com/free-photo/business-person-looking-finance-graphs_23-2150461357.jpg?ga=GA1.1.1637173505.1703150799&semt=ais_items_boosted&w=740" alt="FinTracker">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">FinTracker (Finance Tracking System)</h3>
+                                <p class="project-description">
+                                    Developed a full-stack web application using HTML, CSS, JavaScript, PHP, and MAN stack to help users track expenses, set financial goals, manage budgets, and monitor investments with real-time dashboards.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">PHP</span>
+                                    <span class="tag">MAN Stack</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Co & Extra Curricular Activities Section -->
+        <section id="extra" class="extra">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Beyond Academics</h2>
+                    <p class="section-subtitle">Leadership, creativity, and impact outside the classroom</p>
+                </div>
+                <div class="extra-cards-grid">
+                    <div class="extra-card">
+                        <div class="extra-icon"><i class="fas fa-bullhorn"></i></div>
+                        <h3>Marketing Head, GeeksforGeeks SRM AP</h3>
+                        <p>
+                            Led a team to organize coding workshops, hackathons, and tech talks, boosting campus engagement and technical awareness among peers.
+                        </p>
+                    </div>
+                    <div class="extra-card">
+                        <div class="extra-icon"><i class="fas fa-users"></i></div>
+                        <h3>Class Representative</h3>
+                        <p>
+                            Acted as a bridge between faculty and students, ensuring smooth communication, organizing events, and resolving concerns for my batch.
+                        </p>
+                    </div>
+                    <div class="extra-card">
+                        <div class="extra-icon"><i class="fas fa-store"></i></div>
+                        <h3>Entrepreneurial Initiatives</h3>
+                        <p>
+                            Co-founded and marketed “Dessite Delight,” a food stall at SRM University’s fest, which became one of the most popular stalls of the event.
+                        </p>
+                    </div>
+                    <div class="extra-card">
+                        <div class="extra-icon"><i class="fas fa-certificate"></i></div>
+                        <h3>Certified Learner</h3>
+                        <ul>
+                            <li>“C Programming” by HRDS</li>
+                            <li>“OOP using C++” on Udemy</li>
+                            <li>“Web Development” on Udemy</li>
+                        </ul>
+                    </div>
+                    <div class="extra-card">
+                        <div class="extra-icon"><i class="fas fa-handshake"></i></div>
+                        <h3>Event Marketing & Participation</h3>
+                        <p>
+                            Represented my university at various tech and cultural fests, driving participation and promoting campus initiatives.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies & Languages Section -->
+        <section id="personal" class="personal">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">More About Me</h2>
+                    <p class="section-subtitle">What fuels my creativity and connects me with the world</p>
+                </div>
+                <div class="personal-grid">
+                    <div class="personal-block">
+                        <h3><i class="fas fa-chess"></i> Strategic Gaming</h3>
+                        <p>
+                            A passionate chess player—love analyzing strategies and playing in local tournaments, sharpening my problem-solving mindset.
+                        </p>
+                    </div>
+                    <div class="personal-block">
+                        <h3><i class="fas fa-camera-retro"></i> Visual Storytelling</h3>
+                        <p>
+                            Amateur photographer—capturing campus life, nature, and events. My photos have featured in university social media posts.
+                        </p>
+                    </div>
+                    <div class="personal-block">
+                        <h3><i class="fas fa-motorcycle"></i> Adventure & Exploration</h3>
+                        <p>
+                            Enthusiastic biker—exploring Andhra Pradesh’s scenic routes, enjoying the thrill of travel and discovering new places.
+                        </p>
+                    </div>
+                    <div class="personal-block">
+                        <h3><i class="fas fa-language"></i> Languages</h3>
+                        <ul>
+                            <li><strong>Telugu</strong> (Native)</li>
+                            <li><strong>English</strong> (Fluent, Academic & Professional)</li>
+                            <li><strong>Hindi</strong> (Conversational)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Feel free to reach out for collaborations or just to say hello!</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-social">
+                    <a href="https://github.com/psmaturi" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/psmaturi" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:psmaturi@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919676793730" class="social-link">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Maturi Pardha Saradhi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileNav = document.getElementById('mobileNav');
+        mobileMenuToggle.addEventListener('click', () => {
+            mobileNav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
